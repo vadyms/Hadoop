@@ -1,0 +1,240 @@
+    1  ./ProcessSessions.sh 
+    2  hadoop fs -ls /tmp
+    3  hadoop fs -mkdir /tmp/sequences
+    4  hadoop fs -ls /tmp
+    5  ./ProcessSessions.sh 
+    6  hadoop fs -ls /tmp/sessions
+    7  hadoop fs -ls /tmp/sequences
+    8  ./ProcessSessions.sh 
+    9  cd /tmp/hive_scripts/
+   10  ./ProcessSessions.sh 
+   11  hadoop fs -rm /tmp/sequences/externalData.txt
+   12  ./ProcessSessions.sh 
+   13  ./ProcessSessions.sh
+   14  cd /tmp/hive_scripts/
+   15  ./ProcessSessions.sh 
+   16  ls
+   17  chmod -x DropTables.sh 
+   18  chmod -X DropTables.sh 
+   19  exit
+   20  ./DropTables.sh 
+   21  hive
+   22  ./ProcessSessions.sh
+   23  ./DropTables.sh 
+   24  hadoop fs -ls /tmp/sequences
+   25  hadoop fs -ls /tmp/sequences/
+   26  hadoop fs -chmod -R 777 /tmp/sequences/
+   27  hadoop fs -ls /tmp/sequences/
+   28  ./ProcessSessions.sh
+   29  hadoop fs -copyFromLocal /tmp/hive_scripts/externalData.txt /tmp/sequences
+   30  hadoop fs -ls /tmp/sequences/
+   31  hadoop fs -copyFromLocal /tmp/hive_scripts/externalData.txt /tmp/sequences/
+   32  hadoop fs -ls /tmp/sequences/
+   33  ./DropTables.sh 
+   34  ./ProcessSessions.sh 
+   35  exit
+   36  service --status-all
+   37  ./ProcessSessions.sh
+   38  ./DropTables.sh
+   39  ./ProcessSessions.sh
+   40  ./DropTables.sh 
+   41  ./ProcessSessions.sh
+   42  ./DropTables.sh 
+   43  ./ProcessSessions.sh
+   44  ./DropTables.sh 
+   45  ./ProcessSessions.sh
+   46  ./DropTables.sh test
+   47  ./DropTables.sh "test"
+   48  ./main.sh /tmp/hive_scripts/externalData.txt /tmp/sequences
+   49  ./main.sh /tmp/hive_scripts/externalData.txt /tmp/sequences/
+   50  hadoop fs -ls /tmp/sequences
+   51  ./main.sh /tmp/hive_scripts/externalData.txt /tmp/sequences
+   52  hadoop fs -ls /tmp/sequences
+   53  ./main.sh /tmp/hive_scripts/externalData.txt /tmp/sequences
+   54  hadoop fs -ls /tmp/sequences
+   55  ./main.sh /tmp/hive_scripts/externalData.txt /tmp/sequences
+   56  hadoop fs -ls /tmp/sequences
+   57  ./main.sh /tmp/hive_scripts/externalData.txt /tmp/sequences
+   58  hive -e "SELECT DISTINCT sf_date_id FROM SESSIONS"
+   59  hive -e "use db_hive; SELECT DISTINCT sf_date_id FROM SESSIONS;"
+   60  res=`hive -e "use db_hive; SELECT DISTINCT sf_date_id FROM SESSIONS;"`
+   61  echo $res
+   62  ./processExportToHive.sh /tmp/hive_scripts/externalData.txt /tmp/sequence
+   63  ./processExportToHive.sh /tmp/hive_scripts/externalData.txt /tmp/sequence/
+   64  cd /tmp/hive_scripts/
+   65  ./processExportToHive.sh 
+   66  ./processExportToHive.sh /tmp/hive_scripts/externalData.txt /tmp/sequence/
+   67  res=`hive -e "use db_hive; SELECT DISTINCT sf_date_id FROM SEQUENCES;"`
+   68  res=`hive -e "use db_hive; SELECT DISTINCT DateID FROM SEQUENCES;"`
+   69  echo $res
+   70  $res
+   71  res=`hive -e "use db_hive; SELECT DISTINCT sf_date_id FROM sessions;"`
+   72  echo $res
+   73  for k in "${res[@]}" do echo $k done; 
+   74  ./processExportToHive.sh /tmp/hive_scripts/externalData.txt /tmp/sequence/
+   75  cd /tmp/hive_scripts/
+   76  ./processExportToHive.sh /tmp/hive_scripts/externalData.txt /tmp/sequence/
+   77  cat $res
+   78  echo $res
+   79  ./processExportToHive.sh /tmp/hive_scripts/externalData.txt /tmp/sequence/
+   80  hive -e "use db_hive; SELECT DISTINCT DateID FROM SEQUENCES;
+   81  "
+   82  hive -e "use db_hive; SELECT DISTINCT DateID FROM SEQUENCES;"
+   83  ./processExportToHive.sh /tmp/hive_scripts/externalData.txt /tmp/sequence/
+   84  hadoop fs -ls /tmp/sequences/
+   85  hadoop fs -ls /tmp/sequence/
+   86  hadoop fs -mkdir /tmp/sequences/
+   87  hadoop fs -ls /tmp/sequences/
+   88  hive
+   89  hadoop fs -ls /tmp/
+   90  ./processExportToHive.sh /tmp/hive_scripts/externalData.txt /tmp/sequences/
+   91  hadoop fs -ls /tmp/sequence
+   92  hadoop fs -ls /tmp/sequences
+   93  hadoop fs -copyFromLocal /tmp/wc.jar /iop/apps/4.1.0.0/mapreduce
+   94  hadoop fs -copyFromLocal /tmp/WordCount/file01 /iop/apps/4.1.0.0/mapreduce
+   95  hadoop fs -copyFromLocal /tmp/WordCount/file02 /iop/apps/4.1.0.0/mapreduce
+   96  hadoop fs
+   97  hadoop fs -ls /iop/apps/4.1.0.0/mapreduce
+   98  hadoop jar /iop/apps/4.1.0.0/mapreduce/wc.jar /tmp/input /tmp/output
+   99  cd /tmp/WordCount/
+  100  ll
+  101  hadoo
+  102  bin/hadoop com.sun.tools.javac.Main WordCount.java
+  103  hadoop com.sun.tools.javac.Main WordCount.java
+  104  exit
+  105  hadoop jar wc.jar WordCount /tmp/input /tmp/output
+  106  jps
+  107  yum install hadoop-hdfs-fuse
+  108  exit
+  109  hadoop fs -copyFromLocal /tmp/WordCount/words.txt /tmp/input
+  110  hadoop fs -ls /tmp/input
+  111  hadoop jar wc.jar WordCount /tmp/input /tmp/output
+  112  hadoop fs -ls /tmp
+  113  hadoop
+  114  hadoop fs
+  115  hadoop fs -rmdir /tmp/output
+  116  hadoop jar wc.jar WordCount /tmp/input /tmp/output
+  117  hadoop fs -rm /tmp/input/file02
+  118  hadoop fs -rm /tmp/input/file01
+  119  hadoop fs -rmdir /tmp/output
+  120  hadoop jar wc.jar WordCount /tmp/input /tmp/output
+  121  hadoop fs -rmdir /tmp/output
+  122  set
+  123  cd /tmp/WordCount/
+  124  ll
+  125  hadoop jar wc.jar WordCount /tmp/input /tmp/output
+  126  ll
+  127  cd /
+  128  hadoop fs -rm /tmp/input/file01
+  129  hadoop fs -rmdir /tmp/output
+  130  hadoop fs -rmdir /tmp/output/*
+  131  hadoop
+  132  hadoop fs
+  133  hadoop fs -rm /tmp/output/*
+  134  hadoop fs -rmdir /tmp/output
+  135  hadoop jar wc.jar WordCount /tmp/input /tmp/output
+  136  cd /tmp/WordCount/
+  137  hadoop jar wc.jar WordCount /tmp/input /tmp/output
+  138  hadoop fs -rm /tmp/output/*
+  139  hadoop fs -rmdir /tmp/output
+  140  hadoop -version
+  141  hadoop version
+  142  hadoop fs -rm /tmp/output/*
+  143  hadoop jar wc.jar WordCount /tmp/input /tmp/output
+  144  hadoop fs -rm /tmp/output/*
+  145  hadoop jar wc.jar WordCount /tmp/input /tmp/output
+  146  hadoop fs -rm /tmp/output
+  147  hadoop fs -rmdir /tmp/output
+  148  hadoop jar wc.jar WordCount /tmp/input /tmp/output
+  149  hadoop fs -ls /tmp/output
+  150  hadoop fs -cat /tmp/output/part-r-00000
+  151  exit
+  152  hadoop fs -rmdir /tmp/output
+  153  hadoop fs -rm /tmp/output/*
+  154  hadoop fs -rmdir /tmp/output
+  155  hadoop jar wc.jar WordCount /tmp/input /tmp/output
+  156  hadoop fs -cat /tmp/output/part-r-00000
+  157  hadoop fs -rm /tmp/output/*
+  158  hadoop fs -rmdir /tmp/output
+  159  hadoop jar wc.jar WordCount /tmp/input /tmp/output
+  160  hadoop fs -rm /tmp/output/*
+  161  hadoop fs -rmdir /tmp/output
+  162  hadoop jar wc.jar WordCount /tmp/input /tmp/output
+  163  hadoop fs -rmdir /tmp/output
+  164  hadoop jar wc.jar WordCount /tmp/input /tmp/output
+  165  hadoop fs -cat /tmp/output/part-r-00000
+  166  hadoop fs -rm /tmp/output/*
+  167  hadoop fs -rmdir /tmp/output
+  168  hadoop jar wc.jar WordCount /tmp/input /tmp/output
+  169  hadoop fs -rmdir /tmp/output
+  170  hadoop jar wc.jar WordCount /tmp/input /tmp/output
+  171  hadoop fs
+  172  hadoop fs -rmdir /tmp/output
+  173  hadoop jar wc.jar WordCount /tmp/input /tmp/output
+  174  hadoop fs -rmdir /tmp/output
+  175  hadoop jar wc.jar WordCount /tmp/input /tmp/output
+  176  hadoop fs -rmdir /tmp/output
+  177  hadoop jar wc.jar WordCount /tmp/input /tmp/output
+  178  hadoop fs -rmdir /tmp/output
+  179  hadoop jar wc.jar WordCount /tmp/input /tmp/output
+  180  [3~
+  181  hadoop fs -rmdir /tmp/output
+  182  hadoop jar wc.jar WordCount /tmp/input /tmp/output
+  183  hadoop fs -rmdir /tmp/output
+  184  hadoop jar wc.jar WordCount /tmp/input /tmp/output
+  185  hadoop fs -cat /tmp/output/part-r-00000
+  186  hadoop fs -copyToLocal /tmp/
+  187  hadoop fs -copyToLocal /tmp
+  188  hadoop fs -copyToLocal /tmp/output/part-r-00000 /tmp
+  189  hadoop fs -rm /tmp/output/*
+  190  hadoop fs -rmdir /tmp/output
+  191  hadoop jar wc.jar WordCount /tmp/input /tmp/output
+  192  hadoop fs -cat /tmp/output/part-r-00000
+  193  history
+  194  history
+  195  hadoop fs -copyFromLocal /tmp/WordCount/file00 /tmp/input
+  196  hadoop fs -ls /tmp/input
+  197  hadoop fs -rm /tmp/output/*
+  198  hadoop fs -rmdir /tmp/output
+  199  hadoop jar wc.jar WordCount /tmp/input /tmp/output
+  200  hadoop fs -cat /tmp/output/part-r-00000
+  201  exit
+  202  hadoop fs -cat /tmp/output/part-r-00000
+  203  hadoop fs -ls /tmp/output/part-r-00000
+  204  cd /tmp/WordCount/
+  205  ll
+  206  history
+  207  hadoop fs -rm /tmp/output/*
+  208  hadoop fs -rmdir /tmp/output
+  209  hadoop jar wc.jar WordCount /tmp/input /tmp/output
+  210  hadoop fs -cat /tmp/output/part-r-00000
+  211  hadoop fs -rmdir /tmp/output
+  212  export HADOOP_CLASSPATH=$JAVA_HOME/lib/tools.jar
+  213  hadoop jar wc.jar WordCount /tmp/input /tmp/output
+  214  hadoop fs -cat /tmp/output/part-r-00000
+  215  hadoop fs -rm /tmp/input/*
+  216  history
+  217  hadoop fs -copyFromLocal /tmp/WordCount/file00 /tmp/input
+  218  hadoop fs -rm /tmp/output/*
+  219  hadoop fs -rmdir /tmp/output
+  220  hadoop jar wc.jar WordCount /tmp/input /tmp/output
+  221  history
+  222  hadoop fs -copyToLocal /tmp/output/part-r-00000 /tmp/WordCount/
+  223  hadoop fs -copyToLocal /tmp/output/part-r-00000 /tmp
+  224  tail -f file00
+  225  ll
+  226  cd /
+  227  cd /tmp/WordCount/
+  228  ll
+  229  history
+  230  hadoop fs -rm /tmp/output/*
+  231  hadoop fs -rmdir /tmp/output
+  232  export HADOOP_CLASSPATH=$JAVA_HOME/lib/tools.jar
+  233  hadoop fs -rm /tmp/input/*
+  234  hadoop fs -copyFromLocal /tmp/WordCount/file00 /tmp/input
+  235  hadoop jar wc.jar WordCount /tmp/input /tmp/output
+  236  history
+  237  hadoop fs -copyToLocal /tmp/output/part-r-00000 /tmp/WordCount/
+  238  hadoop fs -copyToLocal /tmp/output/part-r-00000 /tmp/WordCount
+  239   hadoop fs -ls /tmp/output
+  240  history > /tmp/history_hdfs.txt

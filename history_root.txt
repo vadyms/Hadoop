@@ -1,0 +1,862 @@
+    1  vi /etc/resolv.conf 
+    2  vi /etc/yum.repos.d/nice.repo
+    3  cd  /etc/yum.repos.d/
+    4  ll
+    5  rm rhel-source.repo 
+    6  vi nice.repo 
+    7  yum install puppet
+    8  puppet agent -tv --environment=ilan_test_prod
+    9  yum install puppet --skip-broken
+   10  vi nice.repo 
+   11  yum install puppet
+   12  puppet agent -tv --environment=ilan_test_prod
+   13  ll /opt/ccih/
+   14  ll /opt/ccih/dependencies/
+   15  df -h
+   16  cat /sys/kernel/mm/redhat_transparent_hugepage/enabled 
+   17  cat /sys/kernel/mm/redhat_transparent_hugepage/defrag
+   18  echo never > /sys/kernel/mm/redhat_transparent_hugepage/enabled
+   19  cat /sys/kernel/mm/redhat_transparent_hugepage/enabled 
+   20  cat /sys/kernel/mm/redhat_transparent_hugepage/defrag
+   21  less /etc/yum.repos.d/nice.repo 
+   22  puppet agent -tv --environment=ilan_test_prod
+   23  less /etc/yum.repos.d/nice.repo 
+   24  puppet agent -tv --environment=ilan_test_prod
+   25  /etc/init.d/puppet stop
+   26  ifconfig 
+   27  cat /sys/kernel/mm/redhat_transparent_hugepage/enabled 
+   28  history 
+   29  puppet agent -tv --environment=ilan_test_prod
+   30  yum install compat-readline5 
+   31  yum install glibc                    
+   32  yum install glibc*                    
+   33  yum install nss-softokn-freeb*
+   34  yum install ruby*
+   35  vi /etc/yum.repos.d/nice.repo 
+   36  yum install ruby*
+   37  vi /etc/yum.repos.d/nice.repo 
+   38  yum install ruby*
+   39  yum install rubygem
+   40  yum install rubygem*
+   41  yum list|grep rubygem
+   42  yum install rubygem* --skip-broken
+   43  rpm -qa|grep ruby
+   44  rpm -qa|grep ruby|grep lib
+   45  ifconfig 
+   46  puppet agent -tv
+   47  vim /etc/sysconfig/network
+   48  vim /etc/sysconfig/network-scripts/ifcfg-eth0 
+   49  ifconfig -a
+   50  ifconfig -a | grep HWaddr
+   51  vim  /etc/sysconfig/network-scripts/ifcfg-eth0 
+   52  ifconfig -a | grep HWaddr >
+   53  ifconfig -a | grep HWaddr
+   54  vim  /etc/sysconfig/network-scripts/ifcfg-eth0 
+   55  ifconfig -a | grep HWaddr
+   56  rm -rf /etc/udev/rules.d/70-persistent-net.rules 
+   57  reboot
+   58  vim /etc/resolv.conf 
+   59  vim /etc/yum.repos.d/nice.repo
+   60  df -h
+   61  which javas
+   62  which java
+   63  rpm -qa } grep java
+   64  rpm -qa | grep java
+   65  su - badmin
+   66  su - biadmin
+   67  cd /opt/ccih/dependencies/
+   68  ll
+   69  rm -rf jdk-6u30-lin
+   70  ll
+   71  vim /etc/CCIHGlobalEnv 
+   72  rpm -qa | grep java
+   73  userdel -rf biadmin
+   74  su - biadmin
+   75  less /etc/redhat-release 
+   76  rpm -qa|grep ccih
+   77  rpm -qa|grep java
+   78  ll /opt/ccih/
+   79  ll /opt/ccih/dependencies/
+   80  vim /root/.bashrc
+   81  cd /tmp/
+   82  ll
+   83  rpm =ivh ccih-java-RPM-10.6.0600-SNAPSHOT20150917122003.noarch.rpm 
+   84  rpm -ivh ccih-java-RPM-10.6.0600-SNAPSHOT20150917122003.noarch.rpm 
+   85  cd /opt/ccih/dependencies/
+   86  ll
+   87  rpm -qa | grep java
+   88  rpm -e ccih-java-RPM-10.6.0600-SNAPSHOT20150917122003.noarch
+   89  ll
+   90  rm -rf java
+   91  su - CCIHservices
+   92  su - CCIHServices
+   93  cd /tmp/
+   94  ll
+   95  rpm -ivh ccih-java-RPM-10.6.0600-SNAPSHOT20150917122003.noarch.rpm 
+   96  vim /root/.bashrc 
+   97  cd /opt/ccih/dependencies/
+   98  ll
+   99  cd java/
+  100  ll
+  101  cd current/
+  102  ll
+  103  vim /root/.bashrc 
+  104  vim /root/.bash_history 
+  105  vim /etc/fstab 
+  106  history 
+  107  echo $PATJ
+  108  echo $PATH
+  109  less .bashrc 
+  110  chkconfig --list|grep sql
+  111  ifconfig 
+  112  rpm -qa | grep sql
+  113  yum install mysql
+  114  vim /root/.bashrc 
+  115  cd /opt/ccih/dependencies/java/current/java-home
+  116  vim /root/.bashrc 
+  117  vim /etc/CCIHGlobalEnv 
+  118  vim /etc/resolv.conf
+  119  vim  /etc/sysconfig/network-scripts/ifcfg-eth0 
+  120  vim  /etc/sysconfig/network
+  121  vim /etc/fstab 
+  122  vim  /etc/rc.local 
+  123  vim /etc/fstab 
+  124  vim  /etc/rc.local 
+  125  cd /
+  126  ll
+  127  cd /root/
+  128  ll
+  129  vim /etc/fstab 
+  130  mkdir /build
+  131  mkdir /build_causata
+  132  mkdir /approved
+  133  vim /etc/profile
+  134  rpm -qa | grep java
+  135  touch /etc/hosts_OK
+  136  vim /etc/hosts_OK 
+  137  /etc/init.d/mysqld status
+  138  vim /etc/yum.repos.d/nice.repo
+  139  yum install mysqld
+  140  yum install mysql
+  141  /etc/init.d/mysqld status
+  142  rpm -qa | grep sql
+  143  yum install mysqld*
+  144  yum install mysql*
+  145  rpm -qa | grep sql
+  146  rpm -qa | grep java
+  147  /etc/init.d/mysqld status
+  148  chkconfig | grep qpidd
+  149  nslookup 1.10.62.26
+  150  nslookup
+  151  cd /opt/ccih/dependencies/java/current/java-home/
+  152  cd bin/
+  153  ll
+  154  ./java -version
+  155  rpm -e ccih-java-RPM-10.6.0600-SNAPSHOT20150917122003.noarch
+  156  cd ..
+  157  cd
+  158  rpm -e ccih-java-RPM-10.6.0600-SNAPSHOT20150917122003.noarch
+  159  mount -a
+  160  cd /build/
+  161  ll
+  162  cd 192.168.244.10:/vol/build/Drop/NNG 
+  163  cd /etc/init.d/
+  164  ls -l
+  165  ./nfslock status
+  166  ./nfslock start
+  167  ./nfslock stop
+  168  sh -x nfslock start
+  169  mount /build
+  170  cd /tmp
+  171  ls -ltr
+  172  rpm -ivh ./ccih-java-RPM-10.6.0600-SNAPSHOT20151229080222.noarch-20151229.rpm 
+  173  cd /opt/ccih/dependencies/java/current/java-home/bin
+  174  ./java -version
+  175  /etc/init.d/rpcbind status
+  176  /etc/init.d/rpcbind start
+  177  /etc/init.d/nfs status
+  178  /etc/init.d/nfs start
+  179  mount -a
+  180  df -h
+  181  chconfig | grep rpcbind
+  182  chkconfig | grep rpc
+  183  chkconfig | grep rpcbind
+  184  chkconfig  rpcbind on
+  185  chkconfig | grep rpcbind
+  186  chkconfig | grep nfs
+  187  chkconfig  nfs on
+  188  chkconfig | grep rpcbind
+  189  chkconfig | grep rpc
+  190  chkconfig | grep nfs
+  191  chkconfig  nfslock on
+  192  chkconfig | grep nfs
+  193  vim /root/.bashrc
+  194  vim /etc/yum.repos.d/nice.repo
+  195  vim /root/.bashrc 
+  196  vim /etc/rc.local
+  197  vim /etc/rc.local 
+  198  cd /build/INF/CEA_7_BI_4.1/INF/ADS
+  199  vim /etc/rc.local
+  200  cd /build/INF/CEA_7_BI_4.1/INF/ASE/
+  201  df -h
+  202  cd /
+  203  ll
+  204  rm -rf personal_vcd_BI
+  205  rm -rf personal_vcd_BI.zip 
+  206  vim /etc/rc.local 
+  207  rm -rf /etc/oceanBaseLine 
+  208  df -h
+  209  vim /etc/resolv.conf
+  210  df -h
+  211  /etc/init.d/puppet status
+  212  chkconfig | grep puppet
+  213  chkconfig  puppet off
+  214  chkconfig | grep puppet
+  215  /etc/init.d/puppet stop
+  216  /etc/init.d/puppet status
+  217  chkconfig | grep puppet
+  218  cd /var/lib/puppet/nice/global_tenant/add_tenant_status
+  219  ll
+  220  rm -rf jpmtenant.DONE 
+  221  userdel -r jpmtenant
+  222  /etc/init.d/puppet status
+  223  chkconfgi | grep puppet
+  224  chkconifi | grep puppet
+  225  chkconfig | grep puppet
+  226  vim /etc/resolv.conf
+  227  rpm -qa | grep java
+  228  rpm -e ccih-java-RPM-10.6.0600-SNAPSHOT20151229080222.noarch
+  229  rpm -e java-1.7.0-openjdk-1.7.0.79-2.5.5.4.el6.x86_64
+  230  rpm -e java-1.6.0-openjdk-1.6.0.35-1.13.7.1.el6_6.x86_64
+  231  rpm -qa | grep java
+  232  cd /build/OTP/CEA_7_BI_4.1/OTP/JAV/
+  233  rpm -ivh ccih-java-RPM-7.0.0001.0000-1.noarch.rpm 
+  234  vim /etc/profile.d/javaenv.sh
+  235  logout
+  236  which java
+  237  su - biadmin
+  238  vim /etc/group
+  239  groupdel biadmin
+  240  vim /etc/group
+  241  vim /etc/resolv.conf
+  242  cd /tmp/
+  243  su - biadmin
+  244  /etc/init.d/puppet status
+  245  chkconfig | grep puppet
+  246  unzip BI4.1_AIO_silent_install_script.zip 
+  247  cd BI4.1_AIO_silent_install_script.zip 
+  248  ll
+  249  cd Java1.7_silent_install_no_java_binaries/
+  250  ll
+  251  vim /etc/hosts
+  252  hostname
+  253  hostname -f
+  254  hostname -s
+  255  ./silent-install.sh 
+  256  vim /etc/resolv.conf
+  257  which java
+  258  java -version
+  259  vim /etc/CCIHLocalEnv 
+  260  vim /etc/resolv.conf
+  261  cat /etc/hosts
+  262  vim /etc/sudoers
+  263  chkconfig | grep tables
+  264  iptables -L
+  265  ifconfig
+  266  getenforce 
+  267  vim /etc/sysctl.conf
+  268  "net.ipv6.conf.all.disable_ipv6" /etc/sysctl.conf
+  269  grep "net.ipv6.conf.all.disable_ipv6" /etc/sysctl.conf
+  270  grep "net.ipv6.conf.default.disable_ipv6" /etc/sysctl.conf
+  271  grep "net.ipv6.lo.default.disable_ipv6" /etc/sysctl.conf
+  272  grep "net.ipv6.conf.lo.disable_ipv6" /etc/sysctl.conf
+  273  vim /etc/sysctl.conf
+  274  ifconfig -a
+  275  grep "NETWORKING_IPV6=no" /etc/sysconfig/network
+  276  vim /etc/sysconfig/network
+  277  chkconfig | grep ip6tables
+  278  chkconfig | grep iptables
+  279  /etc/init.d/ip6tables status
+  280  /etc/init.d/iptables status
+  281  /etc/init.d/iptables stop
+  282  /etc/init.d/iptables status
+  283  /etc/init.d/ip6tables status
+  284  chkconfig | grep qp
+  285  vim /etc/resolv.conf
+  286  vim /etc/yum.repos.d/nice.repo
+  287  vim /root/.bashrc
+  288  cd /opt/ccih/dependencies/hbase-integration
+  289  java -version
+  290  which java
+  291  rpm -qa | grep java
+  292  cd /opt/ccih/dependencies/apache-tomcat/current/CCIHContent/conf
+  293  cd /
+  294  ll
+  295  rm -rf /etc/oceanBaseLine 
+  296  rm -rf /personal_vcd_BI
+  297  rm -rf /personal_vcd_BI.zip 
+  298  ll /
+  299  rm -rf /etc/oceanBaseLine 
+  300  rm -rf /personal_vcd_BI
+  301  rm -rf /personal_vcd_BI.zip 
+  302  ll /
+  303  yum install glibc
+  304  yum install libc.so.6
+  305  rpm -qa | grep glibc
+  306  ll /
+  307  rm -rf /personal_vcd_BI
+  308  rm -rf /personal_vcd_BI.zip 
+  309  rm -rf /etc/oceanBaseLine 
+  310  /etc/init.d/ambari-server status
+  311  chkconfig | grep ambari
+  312  chkconfig  ambari-agent on
+  313  chkconfig  ambari-server on
+  314  chkconfig | grep ambari
+  315  ssh 1.10.193.19
+  316  cd /usr/
+  317  ll
+  318  cd iop/4.1.0.0/
+  319  mkdir ibm-scripts
+  320  ll
+  321  mv ibm-scripts ibm_scripts
+  322  pwd
+  323  ll
+  324  pwd
+  325  cd ibm_scripts/
+  326  pwd
+  327  ll
+  328  cd BI4/
+  329  ll
+  330  vim startAllServices.sh 
+  331  pwd
+  332  vim startAllServices.sh 
+  333  ll
+  334  ll /
+  335  rm -rf /personal_vcd_BI
+  336  rm -rf /personal_vcd_BI.zip 
+  337  rm -rf /etc/oceanBaseLine 
+  338  netstat -an | grep 8080
+  339  /etc/init.d/iptables status
+  340  netstat -an | grep tomcat
+  341  vim /etc/yum.repos.d/redhat.repo 
+  342  vim etc/sysconfig/network
+  343  vim /etc/sysconfig/network
+  344  ifconfig
+  345  :q
+  346  vim /etc/sysctl.conf
+  347  vim /etc/fstab 
+  348  umount /build_causata/
+  349  mount -a
+  350  ll /
+  351  rm -rf /personal_vcd_BI
+  352  rm -rf /personal_vcd_BI.zip 
+  353  rm -rf /etc/oceanBaseLine 
+  354  find / -name hbase-site.xml
+  355  find / -name hbase-site.xml
+  356  cd /etc/hbase/4.1.0.0/0/hbase-site.xml
+  357  vim /etc/hbase/4.1.0.0/0/hbase-site.xml
+  358  ll /
+  359  rm -rf /personal_vcd_BI
+  360  rm -rf /personal_vcd_BI.zip 
+  361  rm -rf /etc/oceanBaseLine 
+  362  echo $JAVA_HOME 
+  363  $JAVA_HOME -version
+  364  file $(which java)
+  365  file /etc/alternatives/java
+  366  vim zookeeper.znode.parent 
+  367  vim zookeeper.znode.parent
+  368  vim /etc/hbase/4.1.0.0/0/hbase-site.xml
+  369  ll /
+  370  cd /
+  371  ll
+  372  rm -rf /personal_vcd_BI
+  373  rm -rf /personal_vcd_BI.zip 
+  374  rm -rf /etc/oceanBaseLine 
+  375  rpm -qa | grep java
+  376  rm -rf /personal_vcd_BI
+  377  rm -rf /personal_vcd_BI.zip 
+  378  rm -rf /etc/oceanBaseLine 
+  379  vim /etc/CCIHLocalEnv 
+  380  vim /etc/fstab 
+  381  cd /build_causata/7.0/dev/rpms-master
+  382  ll
+  383  pwd
+  384  vim /etc/fstab 
+  385  vim /etc/rc.local 
+  386  vim /etc/passwd
+  387  hostname
+  388  hostnamem -f
+  389  hostname -f
+  390  hostname -s
+  391  vim /etc/passwd
+  392  vim /etc/group
+  393  vim /etc/passwd
+  394  cd /home/
+  395  ll
+  396  vim /etc/passwd
+  397  usermod -u 1042 hdfs
+  398  vim /etc/passwd
+  399  usermod -u 1046 zookeeper
+  400  vim /etc/passwd
+  401  usermod -u 1045 yarn
+  402  usermod -u 1043 hbase
+  403  usermod -u 1047 postgres
+  404  ps -ef | grep 2403
+  405  /etc/init.d/postgresql status
+  406  /etc/init.d/postgresql stop
+  407  usermod -u 1047 postgres
+  408  usermod -u 1044 mapred
+  409  useradd -u 1040 -g 1014 ams
+  410  vim /etc/passwd
+  411  find / -user 5080 
+  412  ll
+  413  vim /etc/passwd
+  414  ll
+  415  mkdir postgres
+  416  ll
+  417  chown postgres postgres
+  418  chgrp hadoop postgres
+  419  ll
+  420  chmod 711 postgres
+  421  ll
+  422  chmod -R 755 postgres
+  423  ll
+  424  stat yarn
+  425  chmod -R 700 postgres
+  426  ll
+  427  find / -user 26
+  428  find / -user 5081
+  429  cd /hadoop/hdfs/namenode
+  430  ll
+  431  cd ..
+  432  ll
+  433  reboot
+  434  find / -user 5081
+  435  find / -user 5081
+  436  find / -user 26
+  437  find / -user 26 -exec chown -h postgres {} \;
+  438  find / -user 26
+  439  find / -user 5080
+  440  find / -user 5080 -exec chown -h zookeeper {} \;
+  441  find / -user 5080
+  442  cd /proc/4023/task/4023/fd/5
+  443  cd /proc/4023/task/4023/fd/
+  444  cd /proc/4023/task/4023/
+  445  cd /proc/4023/task/
+  446  cd /proc/4023/
+  447  cd /proc/
+  448  cd /proc
+  449  ll
+  450  ll
+  451  find / -user 5081
+  452  find / -user 5081 -exec chown -h hdfs {} \;
+  453  find / -user 5078 -exec chown -h hbase {} \;
+  454  find / -user 5083 -exec chown -h yarn {} \;
+  455  find / -user 5077 -exec chown -h mapred {} \;
+  456  find / -group 26
+  457  find / -group 26 -exec chgrp -h postgres {} \;
+  458  find / -group 26 -exec chgrp -h postgres {} \;
+  459  find / -group 5081 -exec chgrp -h hdfs {} \;
+  460  find / -group 5080 -exec chgrp -h zookeeper {} \;
+  461  find / -group 5078 -exec chgrp -h hbase {} \;
+  462  find / -group 5078 -exec chgrp -h hbase {} \;
+  463  cd ../
+  464  find / -group 5083 -exec chgrp -h yarn {} \;
+  465  find / -group 5077 -exec chgrp -h mapred {} \;
+  466  reboot
+  467  /bin/bash /usr/iop/4.1.0.0/ibm_scripts/BI4/startAllServices.sh
+  468  cd hdfs
+  469  vim /usr/iop/4.1.0.0/ibm_scripts/BI4/startAllServices.sh
+  470  useradd -G hdfs admin
+  471  usermod -a -G users admin
+  472  usermod -a -G hadoop admin
+  473  id admin
+  474  vim /etc/passwd
+  475  vim /etc/hosts
+  476  vim /etc/resolv.conf
+  477  vim /etc/resolv.conf
+  478  yum list
+  479  rpm -qa | grep dos2unix
+  480  yum install hive_4_1_*
+  481  rpm -qa | grep ccih
+  482  ping admin01
+  483  reboot
+  484  cd /etc/hadoop/
+  485  vim /usr/iop/4.1.0.0/ibm_scripts/BI4/startAllServices.sh
+  486  ll
+  487  vim services-sitemap 
+  488  find /build/CTP/CEA_7_BI_4.1/CTP/BID/ -name "ccih-BI-daemons-RPM-[0-9]*.rpm"  -printf "%T@\0%p\0" | awk 
+  489  find /build/CTP/CEA_7_BI_4.1/CTP/BID/ -name "ccih-BI-daemons-RPM-[0-9]*.rpm"
+  490  find $ADS_PATH -name "CEA-add-tenant-[0-9]*.zip"  -printf "%T@\0%p\0" | awk 
+  491  find /build/CTP/CEA_7_BI_4.1/CTP/BID/ -name "ccih-BI-daemons-RPM-[0-9]*.rpm"
+  492  find /build/CTP/CEA_7_BI_4.1/CTP/BID/ -name "ccih-BI-daemons-RPM-[0-9]*.rpm"  -printf "%T@\0%p\0" | awk 
+  493  find /build/CTP/CEA_7_BI_4.1/CTP/BID/ -name "ccih-BI-daemons-RPM-[0-9]*.rpm"  -printf "%T@\0%p\0" | awk 
+  494  latest_addtenant=`find $ADS_PATH -name "CEA-add-tenant-[0-9]*.zip"  -printf "%T@\0%p\0" | awk '
+  495  latest_addtenant=`find $ADS_PATH -name "CEA-add-tenant-[0-9]*.zip"  -printf "%T@\0%p\0" | awk `
+  496  latest_addtenant=`find $ADS_PATH -name "CEA-add-tenant-[0-9]*.zip"  -printf "%T@\0%p\0" | awk `
+  497  cd /
+  498  mkdir /BigData_Backup
+  499  cd BigData_Backup/
+  500  mkdir MetaData
+  501  ll
+  502  cd ../
+  503  chmod -R 777 /BigData_Backup
+  504  ll
+  505  cd BigData_Backup/
+  506  ll
+  507  cd /
+  508  ll
+  509  rm -rf /personal_vcd_BI
+  510  rm -rf /personal_vcd_BI.zip 
+  511  rm -rf /etc/oceanBaseLine 
+  512  ll
+  513  rm -rf /personal_vcd_BI
+  514  rm -rf /personal_vcd_BI.zip 
+  515  rm -rf /etc/oceanBaseLine 
+  516  vim /etc/rc.local 
+  517  cd /build/INF/dev/INF/ADS/
+  518  ll
+  519  cd /
+  520  ll
+  521  rm -rf /personal_vcd_BI
+  522  rm -rf /personal_vcd_BI.zip 
+  523  rm -rf /etc/oceanBaseLine 
+  524  cd /
+  525  ll
+  526  mkdir /hadoop2
+  527  chmod 755 /hadoop2
+  528  cd /hadoop2
+  529  ll
+  530  cd ..
+  531  cd /hadoop
+  532  ll
+  533  mkdir /hadoop2/yarn
+  534  chmod 755 /hadoop2/yarn/
+  535  ll
+  536  cd yarn
+  537  ll
+  538  mkdir /hadoop2/yarn/local
+  539  chmod 775 /hadoop2/yarn/local/
+  540  chown yarn:hadoop /hadoop2/yarn/local/
+  541  ll
+  542  cd local/
+  543  ll
+  544  mkdir /hadoop2/yarn/local/usercache
+  545  chown yarn:hadoop /hadoop2/yarn/local/usercache
+  546  chmod 755 /hadoop2/yarn/local/usercache
+  547  ll
+  548  ll /hadoop2/yarn/local/
+  549  ll /hadoop2/yarn/
+  550  cd ..
+  551  ll
+  552  cd ..
+  553  ll
+  554  ll /hadoop2/
+  555  cd /
+  556  ll
+  557  rm -rf /personal_vcd_BI
+  558  rm -rf /personal_vcd_BI.zip 
+  559  rm -rf /etc/oceanBaseLine 
+  560  vim /etc/CCIHLocalEnv 
+  561  vim /etc/rc.local 
+  562  ll /
+  563  vim /etc/services 
+  564  rpm -qa | grep ccih
+  565  rpm -qa | grep BI
+  566  rpm -qa | grep ccih
+  567  rm -rf /personal_vcd_BI
+  568  rm -rf /personal_vcd_BI.zip 
+  569  rm -rf /etc/oceanBaseLine 
+  570  su dbadmin
+  571  su biadmin
+  572  su CCIHServices
+  573  vim /etc/passwd
+  574  passwd hdfs
+  575  passwd zookeeper
+  576  passwd hbase
+  577  passwd yarn
+  578  passwd mapred
+  579  passwd ams
+  580  su CCIHServices
+  581  rm -rf /personal_vcd_BI
+  582  rm -rf /personal_vcd_BI.zip 
+  583  rm -rf /etc/oceanBaseLine 
+  584  df -h
+  585  fdisk -l
+  586  df -h
+  587  lvs
+  588  vgs
+  589  pvs
+  590  df -h
+  591  fdisk -l
+  592  df -h
+  593  fdisk -l
+  594  fdisk /dev/sdb
+  595  fdisk -l 
+  596  pvcreate /dev/sdb1 
+  597  vgdisplay
+  598  vgextend vg_vbox /dev/sdb1  
+  599  pvscan
+  600  lvdisplay
+  601  lvextend /dev/vg_vbox/LogVol01 /dev/sdb1 
+  602  resize2fs /dev/mapper/vg_vbox-LogVol01 
+  603  df -h
+  604  lvs
+  605  vgs
+  606  pvs
+  607  fdisk -l
+  608  reboot
+  609  hostname
+  610  hostname -s
+  611  hostname -f
+  612  rm -rf /personal_vcd_BI
+  613  rm -rf /personal_vcd_BI.zip 
+  614  rm -rf /etc/oceanBaseLine 
+  615  df -h
+  616  ll /
+  617  rm -rf /personal_vcd_BI
+  618  rm -rf /personal_vcd_BI.zip 
+  619  rm -rf /etc/oceanBaseLine 
+  620  cd /root/.ssh/known_hosts 
+  621  vim /root/.ssh/known_hosts 
+  622  vim /etc/ssh/ssh_known_hosts 
+  623  >/etc/ssh/ssh_known_hosts 
+  624  vim /etc/ssh/ssh_known_hosts 
+  625  hive
+  626  su hive
+  627  hive
+  628  su hive
+  629  hadoop fs -ls /
+  630  hadoop fs -ls /user
+  631  hadoop fs -ls /user/hive
+  632  su hive
+  633  ls /tmp/hive_scripts/
+  634  cd /tmp/hive_scripts/
+  635  ll
+  636  vi processSessionsDaily.hql 
+  637  ZZ
+  638  cd /tmp/
+  639  cd /tmp/hive_scripts/
+  640  vi data.txt 
+  641  ll
+  642  pwd
+  643  ambari-server stop
+  644  ambari-server start
+  645  ambari-server status
+  646  ./ProcessSessions.sh 
+  647  su hadoop
+  648  cd /tmp/hive_scripts/
+  649  ./ProcessSessions.sh 
+  650  hive
+  651  su hive
+  652  hadoop fs -rm /tmp/sequences/externalData.txt
+  653  su hadoop
+  654  su hive
+  655  su hdfs
+  656  su hive
+  657  su hive
+  658  su hdfs
+  659  su hive
+  660  su hdfs
+  661  hive -version
+  662  hive ?
+  663  hive --version
+  664  su hive
+  665  ps -aux | grep -i "Hive"
+  666  su hdfs
+  667  cd /tmp/hive_scripts/
+  668  chmod -x DropTables.sh
+  669  ll
+  670  chmod -X DropTables.sh
+  671  ll
+  672  chmod 777 DropTables.sh
+  673  ll
+  674  ./DropTables.sh 
+  675  su hdfs
+  676  su hdfs
+  677  cd /
+  678  su hive
+  679  su hive
+  680  cd /tmp/hive_scripts/
+  681  su hive
+  682  res=`hive -e "use db_hive; SELECT DISTINCT sf_date_id FROM SEQUENCES;"`
+  683  cmod -R 777 /tmp/hive_scripts/processExportToHive.sh
+  684  chmod -R 777 /tmp/hive_scripts/processExportToHive.sh
+  685  su hdfs
+  686  su hdfs
+  687  su hdfs
+  688  su hdfs
+  689  rpm -qa | grep db
+  690  rpm -qa | grep sql
+  691  ps -ls
+  692  ps -l
+  693  ps -L
+  694  ps
+  695  ps -A
+  696  ps -A | grep sql
+  697  ps -A | grep SQL
+  698  ip add
+  699  su - postgres
+  700  pg_ctl status
+  701  pg_ctl stop
+  702  su postges
+  703  su postgres
+  704  pg_ctl start
+  705  su postgres
+  706  pg_ctl stop -m fast
+  707  pg_ctl reload
+  708  su postgres
+  709  postgres -D /var/lib/pgsql/data
+  710  su postgres
+  711  exit
+  712  ps -L
+  713  ps -A
+  714  ps -A | grep sql
+  715  ps -A | grep post
+  716  su postgres
+  717  restart
+  718  reboot
+  719  su postgres
+  720  hadoop version
+  721  java -version
+  722  cd /usr/iop/4.1.0.0/hadoop/client
+  723  ll
+  724  ls
+  725  ls -help
+  726  ls --help
+  727  ll -s
+  728  ll
+  729  ls -s
+  730  ls -l stax-api-1.0-2.jar 
+  731  ls -l -s stax-api-1.0-2.jar 
+  732  hadoop fs -ls /
+  733  hadoop fs -ls /iop
+  734  hadoop fs -ls /iop/apps
+  735  hadoop fs -ls /iop/apps/4.1.0.0
+  736  hadoop fs -ls /iop/apps/4.1.0.0/mapreduce
+  737  hadoop fs -ls /
+  738  hadoop fs -ls /system
+  739  hadoop fs -copyFomLocal /tmp/wc.jar /iop/apps/4.1.0.0/mapreduce
+  740  hadoop fs --help
+  741  hadoop fs 
+  742  hadoop fs -copyFromLocal /tmp/wc.jar /iop/apps/4.1.0.0/mapreduce
+  743  su hdfs
+  744  bin/hadoop com.sun.tools.javac.Main WordCount.java
+  745  hadoop com.sun.tools.javac.Main WordCount.java
+  746  su hadoop
+  747  export HADOOP_CLASSPATH=$JAVA_HOME/lib/tools.jar
+  748  set
+  749  su hadoop
+  750  cd /tmp/WordCount/
+  751  export HADOOP_CLASSPATH=$JAVA_HOME/lib/tools.jar
+  752   hadoop com.sun.tools.javac.Main WordCount.java
+  753  jar cf wc.jar WordCount*.class
+  754  hadoop jar wc.jar WordCount /tmp/input /tmp/output
+  755   hadoop com.sun.tools.javac.Main WordCount.java
+  756  hadoop jar wc.jar WordCount /tmp/input /tmp/output
+  757  jar cf wc.jar WordCount*.class
+  758  hadoop jar wc.jar WordCount /tmp/input /tmp/output
+  759  su hadoop
+  760  su hdfs
+  761  yum install hadoop-hdfs-fuse
+  762  su hive
+  763  hadoop jar wc.jar WordCount /tmp/input /tmp/output
+  764  cd /tmp/WordCount/
+  765  ll
+  766  su hadoop
+  767  su hive
+  768  su hdfs
+  769  su hdfs
+  770  set
+  771  history
+  772  export HADOOP_CLASSPATH=$JAVA_HOME/lib/tools.jar
+  773  su hdfs
+  774  su hdfs
+  775  cd /tmp/WordCount/
+  776   hadoop com.sun.tools.javac.Main WordCount.java
+  777  export HADOOP_CLASSPATH=$JAVA_HOME/lib/tools.jar
+  778   hadoop com.sun.tools.javac.Main WordCount.java
+  779  jar cf wc.jar WordCount*.class
+  780  cd /tmp/WordCount/
+  781   hadoop com.sun.tools.javac.Main WordCount.java
+  782  export HADOOP_CLASSPATH=$JAVA_HOME/lib/tools.jar
+  783   hadoop com.sun.tools.javac.Main WordCount.java
+  784  jar cf wc.jar WordCount*.class
+  785  history
+  786  su hdfs
+  787  history
+  788   hadoop com.sun.tools.javac.Main WordCount.java
+  789  jar cf wc.jar WordCount*.class
+  790   hadoop com.sun.tools.javac.Main WordCount.java
+  791  jar cf wc.jar WordCount*.class
+  792   hadoop com.sun.tools.javac.Main WordCount.java
+  793  jar cf wc.jar WordCount*.class
+  794   hadoop com.sun.tools.javac.Main WordCount.java
+  795  jar cf wc.jar WordCount*.class
+  796   hadoop com.sun.tools.javac.Main WordCount.java
+  797  jar cf wc.jar WordCount*.class
+  798   hadoop com.sun.tools.javac.Main WordCount.java
+  799  jar cf wc.jar WordCount*.class
+  800   hadoop com.sun.tools.javac.Main WordCount.java
+  801  jar cf wc.jar WordCount*.class
+  802   hadoop com.sun.tools.javac.Main WordCount.java
+  803  jar cf wc.jar WordCount*.class
+  804   hadoop com.sun.tools.javac.Main WordCount.java
+  805  jar cf wc.jar WordCount*.class
+  806   hadoop com.sun.tools.javac.Main WordCount.java
+  807  jar cf wc.jar WordCount*.class
+  808   hadoop com.sun.tools.javac.Main WordCount.java
+  809  jar cf wc.jar WordCount*.class
+  810   hadoop com.sun.tools.javac.Main WordCount.java
+  811  jar cf wc.jar WordCount*.class
+  812  su hdfs
+  813  history
+  814  vi words.sh
+  815  ./words.sh
+  816  chmod 777 words.sh
+  817  ./words.sh
+  818  vi words.sh
+  819  ./words.sh
+  820   hadoop com.sun.tools.javac.Main WordCount.java
+  821  jar cf wc.jar WordCount*.class
+  822  tail -f file0
+  823  tail -f file00
+  824  ./words.sh > file00
+  825  tail -f words.sh 
+  826  tail -f file00
+  827  tail -f file00
+  828  history
+  829  vi words.sh
+  830  su hdfs
+  831  tail -f file00
+  832  ./words.sh > file00
+  833  su hdfs
+  834  history
+  835  cd /tmp/WordCount/
+  836  ll
+  837  tail -f file00
+  838  export HADOOP_CLASSPATH=$JAVA_HOME/lib/tools.jar
+  839  history
+  840  su hdfs
+  841  ./words.sh > file00
+  842  cd /tmp/WordCount/
+  843  ll
+  844  tail -f file00
+  845  history
+  846  hadoop fs -ls /tmp/input
+  847  top
+  848  hadoop fs -copyToLocal /tmp/output/part-r-00000 /tmp/WordCount/
+  849  su hdfs
+  850  cd /tmp/
+  851  ll
+  852  script.sh
+  853  ./script.sh
+  854  chmod 777 script.sh 
+  855  ./script.sh
+  856  perl version
+  857  perl -v
+  858  python -v
+  859  python
+  860  history
+  861  tomstart
+  862  history > /tmp/history_root.txt
